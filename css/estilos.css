@@ -1,0 +1,230 @@
+
+/* Posibles colores: 8bd19b y f5f5dc, e9af63 y f5f5dc, indianred y f5f5dc */
+
+#navbar-container {
+    background-color:#e9af63;
+}
+
+#logo{
+    text-align: center;
+    padding: 30px;
+}
+#logo h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    background-color:#e9af63; 
+    height: 175px;
+}
+
+body{
+    background-color: #f5f5dc;
+}
+
+h1, h2, h3 {
+    color: #381500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
+body, p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+#itemFooter p{
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+p{text-align: "center"; color: #381500;}
+
+#barraNavegacion{
+    height: 100px;
+}
+
+#contenedorContactoIndex{
+    margin-top: 50px;
+    align-items: center;
+}
+
+#foto .card:hover{
+    border: 2px solid #e9af63;
+    cursor: pointer;
+}
+
+.boton{
+    height: 45px;
+    line-height: 45px;
+    width: 150px;
+    background: #e9af63;
+    color: #381500;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* Galeria estilos */
+
+#galeria .col-lg-4 {
+    padding: 20px;
+    margin: 0;
+}
+#galeria .col-md-6{
+    padding: 20px ;
+    margin: 0;
+}
+
+#galeria .col-sm-12{
+    padding: 20px ;
+    margin: 0;
+}
+
+#tituloGaleria h2{
+    text-align: center;
+    padding: 45px;
+    font-size: xx-large;
+
+}
+
+#botonesGaleria{
+    padding-bottom: 50px;
+}
+#galeria{
+    padding: 30px;
+    padding-bottom: 30px;
+}
+
+/* Main */
+#carrusel img{
+    width: 937px;
+    height: 562px;
+    border-radius: 3%;
+}
+#carrusel img:hover{
+    border: 2px solid #e9af63;
+    margin: 0;
+}
+/* sobre nosotros */
+#contorno h2{
+    font-size: x-large;
+    font-weight: 500;
+    padding: 20px;
+    margin: 10px;
+}
+
+#contorno p{
+    font-size: large;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contorno:hover{
+    border: 2px solid #e9af63;
+    margin: 0;
+}
+
+/* Preguntas frecuentes */
+.accordion {
+    --bs-accordion-btn-color: #381500;
+    --bs-accordion-active-bg: #e9af63;
+    --bs-accordion-border-color: #e9af63;
+    --bs-accordion-active-color: #381500;
+    --bs-accordion-btn-icon: #381500;
+    --bs-accordion-btn-active-icon: #381500;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+/*#preguntasFrecuentes h1{
+    font-size: larger;
+}*/
+#contenedorAcordion{
+    padding: 75px;
+}
+
+.accordion-item{
+    padding: 10px;
+}
+
+#presupuesto{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#presupuestoMensaje p{
+    border: solid #e9af63;
+    padding: 15px;
+}
+
+/* Contactanos */
+
+.navbar-brand img {
+    vertical-align: middle;
+}
+
+#formulario-contacto {
+    margin-top: 20px;
+    background-color:#e9af63;
+    border-radius: 8px;
+    padding: 10px;
+    padding-top: 1px;
+}
+
+#formulario-sn {
+    max-width: 1000px;
+    margin-top: 20px;
+    background-color:#e9af63;
+    border-radius: 8px;
+    padding: 10px;
+    padding-top: 1px;
+}
+
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.form-group {
+    flex: 1;
+}
+
+#cuadro-contacto {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h5 {
+    color: #333333;
+    font-weight: bold;
+}
+
+.contact-card p {
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+.map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    height: 250px;
+}
+
+#cuadrito{
+    max-width: 1000px;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+

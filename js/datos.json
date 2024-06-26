@@ -1,0 +1,77 @@
+{
+    "datos":[
+        {
+            "nombre":"Hornillos1",
+            "tipo":"Unifamiliar",
+            "plantas":1,
+            "habitaciones":3,
+            "año":2013,
+            "ubicacion":"Hornillos",
+            "direccion": "img/Galeria Tarjetas/Hornillos 1-2.jpeg"
+        },
+        {
+            "nombre":"Hornillos2",
+            "tipo":"Unifamiliar",
+            "plantas":2,
+            "habitaciones":1,
+            "año":2011,
+            "ubicacion":"Hornillos",
+            "direccion": "img/Galeria Tarjetas/Hornillos 2-2.jpeg"
+        },
+        {
+            "nombre":"Mendozinos1",
+            "tipo":"Unifamiliar",
+            "plantas":1,
+            "habitaciones":2,
+            "año":2018,
+            "ubicacion":"Cura Brochero",
+            "direccion": "img/Galeria Tarjetas/Mendozinos 2.jpeg"
+        },
+        {
+            "nombre":"Mendozinos2",
+            "tipo":"Cabañas",
+            "plantas":1,
+            "habitaciones":2,
+            "año":2020,
+            "ubicacion":"Mina Clavero",
+            "direccion": "img/Galeria Tarjetas/Mendozinos-Cabañas 2.jpeg"
+        },
+        {
+            "nombre":"Pago Chico",
+            "tipo":"Cabañas",
+            "plantas":1,
+            "habitaciones":2,
+            "año":2008,
+            "ubicacion":"Cura Brochero",
+            "direccion": "img/Galeria Tarjetas/Pago chico-2.jpeg"
+
+        },
+        {
+            "nombre":"Gabi",
+            "tipo":"Unifamiliar",
+            "plantas":1,
+            "habitaciones":2,
+            "año":2023,
+            "ubicacion":"San Lorenzo",
+            "direccion": "img/Galeria Tarjetas/Pago chico-2.jpeg"
+        },
+        {
+            "nombre":"Cano",
+            "tipo":"Unifamiliar",
+            "plantas":1,
+            "habitaciones":2,
+            "año":2009,
+            "ubicacion":"Cura Brochero",
+            "direccion": "img/Galeria Tarjetas/Cano.jpeg"
+        },
+        {
+            "nombre":"Brochero",
+            "tipo":"Unifamiliar",
+            "plantas":2,
+            "habitaciones":4,
+            "año":2021,
+            "ubicacion":"Cura Brochero",
+            "direccion": "img/Galeria Tarjetas/frente2.jpeg"
+        }
+    ]
+}

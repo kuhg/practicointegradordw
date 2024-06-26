@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contactos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/validaciones.js" defer></script>
+  </head>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" id="navbar-container">
+          <a class="navbar-brand" href="Index.html">
+            <img src="img/NavBar/Casita.png" alt="aqui va el logo!" width="30" height="30">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="SobreNosotros.html">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="PreguntasFrecuentes.html">Preguntas frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contactos.html">Contactanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <body>
+    <div id="logo" class="container" align="center">
+      <h1>Contactanos</h1>
+    </div>
+    <div id="cuadrito" class="container mt-5" >
+      <div class="row">
+        <div class="col-md-6">
+          <div class="contact-card p-4">
+            <h5 class="mb-4">Datos De Contacto</h5>
+            <p>Nos ubicamos en la localidad de Traslasierras mas especificamente en San Lorenzo!</p>
+            <p>Telefono: 3544-613936 y 3544541334</p>
+            <p>Email: gabvilla32@gmail.com o brianuryn2000@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="contact-card p-4">
+            <h5 class="mb-4">Horarios</h5>
+            <p>Lunes a viernes de 8:30hs a 12:30hs</p>
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d379.97773371032434!2d-65.01631618246192!3d-31.697955111353426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2sar!4v1718591374596!5m2!1ses-419!2sar"  width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="formulario-sn">
+        <form id="formulario-contacto">
+            <div class="row">
+                <div class="col-md-6">
+                    <label class="form-label" for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    <small id="nombreAlert" class="form-text text-danger"></small>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label" for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                    <small id="apellidoAlert" class="form-text text-danger"></small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="margin-top: 15px;">
+                  <label class="form-label" for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                  <small id="emailAlert" class="form-text text-danger"></small>
+                </div>
+                <div class="col-md-6" style="margin-top: 15px;">
+                  <label class="form-label" for="telefono">Telefono</label>
+                  <input type="tel" class="form-control" id="telefono" name="telefono" minlength="9" maxlength="10" oninput="this.value = this.value.replace(/[^0-9]/g, '')" placeholder="Ingrese su nro de telefono (opcional)">
+                  <small id="telefonoAlert" class="form-text text-danger"></small>
+                </div>
+            </div>
+                <div class="col-md-5" style="margin-top: 15px;">
+                    <label class="form-label" for="ciudad">Ciudad</label>
+                    <input type="text" class="form-control" id="ciudad" placeholder="Ingrese su ciudad">
+                    <small id="ciudadAlert" class="form-text text-danger"></small>
+                </div>
+                <div class="form-group mb-3" style="margin-top: 15px;">
+                  <label class="form-label" for="descripcion">Descripción</label>
+                  <textarea class="form-control" id="descripcion" rows="5" placeholder="Describa su consulta" minlength="4"></textarea>
+                  <small id="descripcionAlert" class="form-text text-danger"></small>
+                </div>         
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>      
+      </div>
+      <br><br>
+      <footer>
+        <div class="row">
+            <div id="itemFooter" class="col-4 text-center">
+                <p>©2024 Villalobo Viviendas</p>
+                <p>Telefono: 3544-613936</p>
+            </div>
+            <div id="itemFooter" class="col-4 d-flex justify-content-center align-items-center">
+                <!-- aca va logo-->
+                <img src="img/logo/logo1.png" alt="aqui va el logo!" width="175" height="150">
+            </div>
+            <div id="itemFooter" class="col-4 text-center">
+                <p>Desarrollado por:</p>
+                <p>Villalobo Gabriel Elias e Uryn Brian</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
